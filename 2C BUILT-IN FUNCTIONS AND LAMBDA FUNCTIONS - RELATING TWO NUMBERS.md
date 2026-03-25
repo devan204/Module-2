@@ -10,31 +10,42 @@ To write a Python program to check the relation between two numbers — whether 
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
-3. Define a lambda function `max` that takes two arguments `x` and `y`.  
-4. The lambda function compares the numbers and prints:
-   - If `x > y`, then it prints: "`num2` is smaller than `num1`".
-   - Otherwise, it prints: "`num1` is smaller than `num2`".
-5. Call the lambda function by passing `num1` and `num2` as arguments.  
-6. Terminate the program.
+1.Start
+
+2.Accept two integer inputs a and b from the user
+
+3.Define a lambda function named result that:
+
+4.Compares the values x and y
+
+5.Returns:
+"{x} is smaller than {y}" if x < y
+
+"{x} is greater than {y}" if x > y
+
+"{x} is equal to {y}" if x == y
+
+6.Call the result function with the values a and b
+
+7.Print the returned comparison message
+
+8.End
 
 ---
 
 ### PROGRAM
 
 ```
-
+result = lambda x,y : f"{x} is smaller than {y}" if x < y else (f"{x} is greater than {y}" if x > y                else f"{x} is equal to {y}")
+a=int(input()) 
+b=int(input())
+ 
+# print for numbers
+print(result(a, b))
 ```
 
 ### OUTPUT
-
-```
-
-```
+![Screenshot (230)](https://github.com/user-attachments/assets/ea478393-a4f0-4e68-a0eb-10f8b1d9a976)
 
 ### RESULT
-
-```
-
-```
+Thus the python program was initiated and executed successfully.
