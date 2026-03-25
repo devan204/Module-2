@@ -1,32 +1,46 @@
+
 # Exp.No:2b  
-## FUNCTIONS - PERFECT NUMBER
+## FUNCTIONS - PROGRAM TO PERFORM SUM, SUBTRACTION AND MULTIPLICATION USING FUNCTION
 
 ### AIM  
-To write a Python program to check if a number is a Perfect number using the concept of functions.
+To write a Python program that defines a function called result which accepts two numbers as arguments and returns their sum, difference, and product.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Read the number `n` from the user using `input()`.  
-3. Convert the input to an integer.  
-4. Define the function `perfectNumber(n)` with the following steps:  
-    - Initialize a variable `factor_sum` to 0.  
-    - Iterate through all numbers from 1 to `n//2` (as divisors of a number can't be greater than half of it).  
-    - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
-    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
-5. Terminate the program.
+1.Start
+
+2.Define a function result(a, b)
+
+3.Inside the function:
+
+4.Calculate the sum of a and b
+
+5.Calculate the difference (a - b)
+
+6.Calculate the product (a * b)
+
+7.Return or print all three results in a formatted way
+
+8.Accept two integer inputs from the user
+
+9.Call the result() function with the input values
+
+10.End
 
 ---
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add your Code Here
+def result(a,b):
+    print("Sum is {},Sub is {},&Multiply is {}".format(a+b,a-b,a*b))
+a=int(input())
+b=int(input())
 
 ```
 ### OUTPUT
+![Screenshot (229)](https://github.com/user-attachments/assets/10ccafef-c40d-4d89-88be-e1234c0134f5)
 
 ### RESULT
+Thus the python program was initiated and executed successfully.
